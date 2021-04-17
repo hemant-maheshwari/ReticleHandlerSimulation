@@ -1,0 +1,6 @@
+Apr 09, 2021 3:54:34 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:54:34 RET-LOT-001 started to move from Entry1
+Apr 09, 2021 3:54:42 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:54:42 RET-LOT-001 moved to R1
+Apr 09, 2021 3:54:42 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:54:42 RET-LOT-001 started to move from R1

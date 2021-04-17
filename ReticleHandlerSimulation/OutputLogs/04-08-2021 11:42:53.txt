@@ -1,0 +1,12 @@
+Apr 08, 2021 11:44:08 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-08-2021 11:44:08 ReticleB started to move from Entry1
+Apr 08, 2021 11:44:13 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-08-2021 11:44:13 ReticleB moved to R1
+Apr 08, 2021 11:45:03 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-08-2021 11:45:03 ReticleB started to move from Entry1
+Apr 08, 2021 11:45:03 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-08-2021 11:45:03 ReticleB moved to R1
+Apr 08, 2021 11:45:12 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-08-2021 11:45:12 ReticleB started to move from R1
+Apr 08, 2021 11:45:28 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-08-2021 11:45:28 ReticleB moved to Station1

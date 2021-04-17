@@ -1,0 +1,122 @@
+Apr 09, 2021 3:57:14 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:14 RET-LOT-001 started to move from Entry1
+Apr 09, 2021 3:57:20 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:20 RET-LOT-001 started to move from Entry1
+Apr 09, 2021 3:57:22 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:22 RET-LOT-001 moved to R1
+Apr 09, 2021 3:57:22 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:22 RET-LOT-001 started to move from R1
+Apr 09, 2021 3:57:22 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:22 RET-LOT-001 moved to R1
+Apr 09, 2021 3:57:22 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:22 RET-LOT-001 started to move from R1
+Apr 09, 2021 3:57:23 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: User rewound reticle RET-LOT-001
+Apr 09, 2021 3:57:31 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:31 RET-LOT-001 moved to R1
+Apr 09, 2021 3:57:31 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:31 RET-LOT-001 started to move from R1
+Apr 09, 2021 3:57:31 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:31 RET-LOT-001 moved to R1
+Apr 09, 2021 3:57:31 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:31 RET-LOT-001 started to move from R1
+Apr 09, 2021 3:57:34 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:34 RET-LOT-001 moved to Station1
+Apr 09, 2021 3:57:34 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:34 RET-LOT-001 started to move from Station1
+Apr 09, 2021 3:57:34 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:34 RET-LOT-001 moved to Station1
+Apr 09, 2021 3:57:34 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:34 RET-LOT-001 started to move from Station1
+Apr 09, 2021 3:57:35 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:35 RET-LOT-001 moved to R2
+Apr 09, 2021 3:57:35 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:35 RET-LOT-001 started to move from R2
+Apr 09, 2021 3:57:35 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:35 RET-LOT-001 moved to R2
+Apr 09, 2021 3:57:35 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:35 RET-LOT-001 started to move from R2
+Apr 09, 2021 3:57:36 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:36 RET-LOT-001 moved to L11
+Apr 09, 2021 3:57:36 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:36 RET-LOT-001 started to move from L11
+Apr 09, 2021 3:57:36 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:36 RET-LOT-001 moved to L11
+Apr 09, 2021 3:57:36 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:36 RET-LOT-001 started to move from L11
+Apr 09, 2021 3:57:37 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:37 RET-LOT-001 moved to R2
+Apr 09, 2021 3:57:37 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:37 RET-LOT-001 started to move from R2
+Apr 09, 2021 3:57:37 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:37 RET-LOT-001 moved to R2
+Apr 09, 2021 3:57:37 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:37 RET-LOT-001 started to move from R2
+Apr 09, 2021 3:57:39 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:39 RET-LOT-001 moved to Station2
+Apr 09, 2021 3:57:39 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:39 RET-LOT-001 started to move from Station2
+Apr 09, 2021 3:57:39 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:39 RET-LOT-001 moved to Station2
+Apr 09, 2021 3:57:39 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:39 RET-LOT-001 started to move from Station2
+Apr 09, 2021 3:57:40 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:40 RET-LOT-001 moved to R2
+Apr 09, 2021 3:57:40 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:40 RET-LOT-001 started to move from R2
+Apr 09, 2021 3:57:40 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:40 RET-LOT-001 moved to R2
+Apr 09, 2021 3:57:40 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:40 RET-LOT-001 started to move from R2
+Apr 09, 2021 3:57:42 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:42 RET-LOT-001 moved to L11
+Apr 09, 2021 3:57:43 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:43 RET-LOT-001 moved to Station1
+Apr 09, 2021 3:57:43 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:43 RET-LOT-001 started to move from Station1
+Apr 09, 2021 3:57:43 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:43 RET-LOT-001 moved to Station1
+Apr 09, 2021 3:57:43 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:43 RET-LOT-001 started to move from Station1
+Apr 09, 2021 3:57:44 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:44 RET-LOT-001 moved to R2
+Apr 09, 2021 3:57:44 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:44 RET-LOT-001 started to move from R2
+Apr 09, 2021 3:57:44 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:44 RET-LOT-001 moved to R2
+Apr 09, 2021 3:57:44 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:44 RET-LOT-001 started to move from R2
+Apr 09, 2021 3:57:45 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:45 RET-LOT-001 moved to L11
+Apr 09, 2021 3:57:45 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:45 RET-LOT-001 started to move from L11
+Apr 09, 2021 3:57:45 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:45 RET-LOT-001 moved to L11
+Apr 09, 2021 3:57:45 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:45 RET-LOT-001 started to move from L11
+Apr 09, 2021 3:57:46 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:46 RET-LOT-001 moved to R2
+Apr 09, 2021 3:57:46 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:46 RET-LOT-001 started to move from R2
+Apr 09, 2021 3:57:46 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:46 RET-LOT-001 moved to R2
+Apr 09, 2021 3:57:46 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:46 RET-LOT-001 started to move from R2
+Apr 09, 2021 3:57:48 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:48 RET-LOT-001 moved to Station2
+Apr 09, 2021 3:57:48 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:48 RET-LOT-001 started to move from Station2
+Apr 09, 2021 3:57:48 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:48 RET-LOT-001 moved to Station2
+Apr 09, 2021 3:57:48 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:48 RET-LOT-001 started to move from Station2
+Apr 09, 2021 3:57:49 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:49 RET-LOT-001 moved to R2
+Apr 09, 2021 3:57:49 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:49 RET-LOT-001 started to move from R2
+Apr 09, 2021 3:57:49 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:49 RET-LOT-001 moved to R2
+Apr 09, 2021 3:57:49 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:49 RET-LOT-001 started to move from R2
+Apr 09, 2021 3:57:51 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:57:51 RET-LOT-001 moved to L11

@@ -2,10 +2,14 @@ package com.simulation.reticlehandlersimulation;
 
 import java.io.File;
 import javax.swing.DefaultListModel;
+import javax.swing.JFileChooser;
+import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-public class LogSelectionFrame extends javax.swing.JFrame {
+public class LogSelectionFrame extends JFrame {
 
+    private static String FILE_DIRECTORY = "Logs";
+    
     public LogSelectionFrame() {
         initComponents();
         loadLogFiles();
@@ -16,12 +20,14 @@ public class LogSelectionFrame extends javax.swing.JFrame {
         DefaultListModel model = new DefaultListModel();
         jList1.setModel(model);
         for(File file: logList){
-            model.addElement(file.getName());
+            if(file.getName().substring(file.getName().length()-4).equals(".txt")){
+                model.addElement(file.getName());
+            }
         }
     }
     
     private File[] getAllLogFiles(){
-        File directoryPath = new File("Logs");
+        File directoryPath = new File(FILE_DIRECTORY);
         File[] logList = directoryPath.listFiles();
         return logList;
     }
@@ -36,6 +42,7 @@ public class LogSelectionFrame extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         jList1 = new javax.swing.JList<>();
         jButton2 = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -64,6 +71,13 @@ public class LogSelectionFrame extends javax.swing.JFrame {
             }
         });
 
+        jButton1.setText("LOAD LOGS");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -74,7 +88,10 @@ public class LogSelectionFrame extends javax.swing.JFrame {
                     .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jScrollPane1)
                     .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 319, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
             .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
@@ -89,9 +106,11 @@ public class LogSelectionFrame extends javax.swing.JFrame {
                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton2)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton2)
+                    .addComponent(jButton1))
+                .addContainerGap())
         );
 
         pack();
@@ -106,13 +125,27 @@ public class LogSelectionFrame extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(rootPane, "Please select a log file.");
         }
         else{
-            runAnimation();
+            initializeReticleSelectionFrame();
         }
     }//GEN-LAST:event_jButton2ActionPerformed
 
-    private void runAnimation(){
-        Tester tester = new Tester(getAllLogFiles()[jList1.getSelectedIndex()]);
-        tester.startAnimation();
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        JFileChooser fileChooser = new JFileChooser();
+        fileChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+        int option = fileChooser.showOpenDialog(this);
+        if(option == JFileChooser.APPROVE_OPTION){
+           File file = fileChooser.getSelectedFile();
+           System.out.println("Folder Selected: " + file.getName());
+           FILE_DIRECTORY = fileChooser.getSelectedFile().getAbsolutePath();
+           loadLogFiles();
+        }else{
+           System.out.println("Open command canceled");
+        }
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void initializeReticleSelectionFrame(){
+        ReticleSelection reticleSelection = new ReticleSelection(getAllLogFiles()[jList1.getSelectedIndex()]);
+        reticleSelection.setVisible(true);
         this.dispose();
     }
     
@@ -152,6 +185,7 @@ public class LogSelectionFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;

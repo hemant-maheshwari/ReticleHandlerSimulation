@@ -1,0 +1,2 @@
+Apr 08, 2021 10:11:57 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-08-2021 10:11:57 ReticleB started to move from Entry1

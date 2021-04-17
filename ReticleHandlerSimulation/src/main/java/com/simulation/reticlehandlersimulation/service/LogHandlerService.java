@@ -26,7 +26,7 @@ public class LogHandlerService {
             LogObject logObject = new LogObject();
             logObject.setObjectTime(getDateTimeFromString(entryString.substring(0, 19)));
             logObject.setObjectType(getObjectTypeFromLogEntryString(entryString));
-            if(logObject.getObjectType().equals(LogEntryType.SdrRequest.name())){
+            if(logObject.getObjectType().equals(LogEntryType.SdrRequest.name()) || logObject.getObjectType().equals(LogEntryType.SdrMessageGet.name())){
                 logObject.setData(getReticleDataFromEntryString(entryString));
             }
             else{

@@ -1,0 +1,2 @@
+Apr 09, 2021 4:00:24 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 04:00:24 ReticleA started to move from L21

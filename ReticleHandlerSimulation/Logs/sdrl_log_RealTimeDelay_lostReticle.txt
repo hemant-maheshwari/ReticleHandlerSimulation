@@ -1,0 +1,535 @@
+02/06/2021 13:52:16 (App 10803) SdrMessageGet(Ticket = 1664, Data length = 99)
+  Return = 0 (S_GOOD)
+  Data =
+        <L [5]
+          <U1 0>
+          <U4 7>
+          <A >
+          <A [11] 'MoveReticle'>
+          <L [3]
+            <L [2]
+              <A [6] 'PortID'>
+              <U1 101>
+            >
+            <L [2]
+              <A [10] 'Reticle ID'>
+              <A [12] 'ReticleB'>
+            >
+            <L [2]
+              <A [19] 'DestinationLocation'>
+              <A [5] 'L21'>
+            >
+          >
+        >.
+
+02/06/2021 13:52:16 (App 10681) SdrResponse(Ticket = 1664, S14F20 W=0,
+  Data length = 13), Return = 0 (S_GOOD)
+  Data =
+        <L [3]
+          <B 04>
+          <U4 7>
+          <L>
+        >.
+
+02/06/2021 13:52:16 (App 10757) SdrRequest(ID = 0, S6F11 W=1, Data length = 42)
+  Return = 0 (S_GOOD), Returned Ticket = 1664
+  Data =
+        <L [3]
+          <U4 299>
+          <U4 2016>
+          <L
+            <L [2]
+              <U4 10>
+              <L [2]
+                <A [12] 'ReticleB'>
+                <A >
+              >
+            >
+          >
+        >.
+
+02/06/2021 13:52:16 (App 10757) SdrRequest(ID = 0, S6F11 W=1, Data length = 54)
+  Return = 0 (S_GOOD), Returned Ticket = 1920
+  Data =
+        <L [3]
+          <U4 300>
+          <U4 2282>
+          <L
+            <L [2]
+              <U4 5>
+              <L [3]
+                <A [5] 'Entry1'>
+                <L
+                  <U1 2>
+                >
+                <L
+                  <A [12] 'ReticleB'>
+                >
+              >
+            >
+          >
+        >.
+
+02/06/2021 13:52:17 (App 10757) SdrIdPoll(ID = 0), Return = 1 (S_POLL)
+  S6F12 W=0, Data length = 3, Returned Ticket = 1664
+
+02/06/2021 13:52:17 (App 10757) SdrMessageGet(Ticket = 1664, Data length = 3)
+  Return = 0 (S_GOOD)
+  Data =
+        <B 00>.
+
+02/06/2021 13:52:17 (App 10757) SdrTicketDrop(Ticket = 1664), Return = 0 (S_GOOD)
+
+02/06/2021 13:52:17 (App 10757) SdrIdPoll(ID = 0), Return = 1 (S_POLL)
+  S6F12 W=0, Data length = 3, Returned Ticket = 1920
+
+02/06/2021 13:52:17 (App 10757) SdrMessageGet(Ticket = 1920, Data length = 3)
+  Return = 0 (S_GOOD)
+  Data =
+        <B 00>.
+
+02/06/2021 13:52:17 (App 10757) SdrTicketDrop(Ticket = 1920), Return = 0 (S_GOOD)
+
+02/06/2021 13:52:17 (App 10757) SdrIdPoll(ID = 0), Return = 0 (F_POLL)
+
+02/06/2021 13:52:21 (App 10757) SdrRequest(ID = 0, S6F11 W=1, Data length = 54)
+  Return = 0 (S_GOOD), Returned Ticket = 1920
+  Data =
+        <L [3]
+          <U4 301>
+          <U4 2306>
+          <L [2]
+            <L [2]
+              <U4 1>
+              <L [2]
+                <A [5] 'Entry1'>
+                <U4 101>
+              >
+            >
+            <L [2]
+              <U4 2>
+              <L [2]
+                <U1 3>
+                <U1>
+              >
+            >
+          >
+        >.
+
+02/06/2021 13:52:21 (App 10757) SdrRequest(ID = 0, S6F11 W=1, Data length = 70)
+  Return = 0 (S_GOOD), Returned Ticket = 1664
+  Data =
+        <L [3]
+          <U4 302>
+          <U4 2274>
+          <L [2]
+            <L [2]
+              <U4 5>
+              <L [3]
+                <A [5] 'Entry1'>
+                <L
+                  <U1 2>
+                >
+                <L
+                  <A [12] 'ReticleB'>
+                >
+              >
+            >
+            <L [2]
+              <U4 6>
+              <L
+                <U4 101>
+              >
+            >
+          >
+        >.
+
+02/06/2021 13:52:21 (App 10757) SdrIdPoll(ID = 0), Return = 1 (S_POLL)
+  S6F12 W=0, Data length = 3, Returned Ticket = 1920
+
+02/06/2021 13:52:21 (App 10757) SdrMessageGet(Ticket = 1920, Data length = 3)
+  Return = 0 (S_GOOD)
+  Data =
+        <B 00>.
+
+02/06/2021 13:52:21 (App 10757) SdrTicketDrop(Ticket = 1920), Return = 0 (S_GOOD)
+
+02/06/2021 13:52:21 (App 10757) SdrIdPoll(ID = 0), Return = 0 (F_POLL)
+
+02/06/2021 13:52:22 (App 10757) SdrIdPoll(ID = 0), Return = 1 (S_POLL)
+  S6F12 W=0, Data length = 3, Returned Ticket = 1664
+
+02/06/2021 13:52:22 (App 10757) SdrMessageGet(Ticket = 1664, Data length = 3)
+  Return = 0 (S_GOOD)
+  Data =
+        <B 00>.
+
+02/06/2021 13:52:22 (App 10757) SdrTicketDrop(Ticket = 1664), Return = 0 (S_GOOD)
+
+02/06/2021 13:52:22 (App 10757) SdrIdPoll(ID = 0), Return = 0 (F_POLL)
+
+02/06/2021 13:52:40 (App 10757) SdrRequest(ID = 0, S6F11 W=1, Data length = 49)
+  Return = 0 (S_GOOD), Returned Ticket = 1664
+  Data =
+        <L [3]
+          <U4 303>
+          <U4 1235>
+          <L
+            <L [2]
+              <U4 10>
+              <L [2]
+                <A [12] 'ReticleB'>
+                <A [7] 'Entry1'>
+              >
+            >
+          >
+        >.
+
+02/06/2021 13:52:40 (App 10757) SdrRequest(ID = 0, S6F11 W=1, Data length = 54)
+  Return = 0 (S_GOOD), Returned Ticket = 1920
+  Data =
+        <L [3]
+          <U4 304>
+          <U4 1234>
+          <L
+            <L [2]
+              <U4 10>
+              <L [2]
+                <A [12] 'ReticleB'>
+                <A [12] 'R1'>
+              >
+            >
+          >
+        >.
+
+02/06/2021 13:52:41 (App 10757) SdrIdPoll(ID = 0), Return = 1 (S_POLL)
+  S6F12 W=0, Data length = 3, Returned Ticket = 1664
+
+02/06/2021 13:52:41 (App 10757) SdrMessageGet(Ticket = 1664, Data length = 3)
+  Return = 0 (S_GOOD)
+  Data =
+        <B 00>.
+
+02/06/2021 13:52:41 (App 10757) SdrTicketDrop(Ticket = 1664), Return = 0 (S_GOOD)
+
+02/06/2021 13:52:41 (App 10757) SdrIdPoll(ID = 0), Return = 1 (S_POLL)
+  S6F12 W=0, Data length = 3, Returned Ticket = 1920
+
+02/06/2021 13:52:41 (App 10757) SdrMessageGet(Ticket = 1920, Data length = 3)
+  Return = 0 (S_GOOD)
+  Data =
+        <B 00>.
+
+02/06/2021 13:52:41 (App 10757) SdrTicketDrop(Ticket = 1920), Return = 0 (S_GOOD)
+
+02/06/2021 13:52:41 (App 10757) SdrIdPoll(ID = 0), Return = 0 (F_POLL)
+
+02/06/2021 13:53:11 (App 10757) SdrRequest(ID = 0, S1F1 W=1, Data length = 0)
+  Return = 0 (S_GOOD), Returned Ticket = 1920
+
+02/06/2021 13:53:12 (App 10757) SdrIdPoll(ID = 0), Return = 1 (S_POLL)
+  S1F2 W=0, Data length = 2, Returned Ticket = 1920
+
+02/06/2021 13:53:12 (App 10757) SdrMessageGet(Ticket = 1920, Data length = 2)
+  Return = 0 (S_GOOD)
+  Data =
+        <L>.
+
+02/06/2021 13:53:12 (App 10757) SdrTicketDrop(Ticket = 1920), Return = 0 (S_GOOD)
+
+02/06/2021 13:53:12 (App 10757) SdrIdPoll(ID = 0), Return = 0 (F_POLL)
+
+02/06/2021 13:52:45 (App 10757) SdrRequest(ID = 0, S6F11 W=1, Data length = 54)
+  Return = 0 (S_GOOD), Returned Ticket = 1920
+  Data =
+        <L [3]
+          <U4 305>
+          <U4 1235>
+          <L
+            <L [2]
+              <U4 10>
+              <L [2]
+                <A [12] 'ReticleB'>
+                <A [12] 'R1'>
+              >
+            >
+          >
+        >.
+
+02/06/2021 13:52:45 (App 10757) SdrRequest(ID = 0, S6F11 W=1, Data length = 51)
+  Return = 0 (S_GOOD), Returned Ticket = 1664
+  Data =
+        <L [3]
+          <U4 306>
+          <U4 1234>
+          <L
+            <L [2]
+              <U4 10>
+              <L [2]
+                <A [12] 'ReticleB'>
+                <A [9] 'Station1'>
+              >
+            >
+          >
+        >.
+
+02/06/2021 13:53:13 (App 10757) SdrIdPoll(ID = 0), Return = 1 (S_POLL)
+  S6F12 W=0, Data length = 3, Returned Ticket = 1920
+
+02/06/2021 13:53:13 (App 10757) SdrMessageGet(Ticket = 1920, Data length = 3)
+  Return = 0 (S_GOOD)
+  Data =
+        <B 00>.
+
+02/06/2021 13:53:13 (App 10757) SdrTicketDrop(Ticket = 1920), Return = 0 (S_GOOD)
+
+02/06/2021 13:53:13 (App 10757) SdrIdPoll(ID = 0), Return = 1 (S_POLL)
+  S6F12 W=0, Data length = 3, Returned Ticket = 1664
+
+02/06/2021 13:53:13 (App 10757) SdrMessageGet(Ticket = 1664, Data length = 3)
+  Return = 0 (S_GOOD)
+  Data =
+        <B 00>.
+
+02/06/2021 13:53:13 (App 10757) SdrTicketDrop(Ticket = 1664), Return = 0 (S_GOOD)
+
+02/06/2021 13:53:13 (App 10757) SdrIdPoll(ID = 0), Return = 0 (F_POLL)
+
+02/06/2021 13:53:36 (App 10757) SdrRequest(ID = 0, S6F11 W=1, Data length = 42)
+  Return = 0 (S_GOOD), Returned Ticket = 1664
+  Data =
+        <L [3]
+          <U4 307>
+          <U4 2017>
+          <L
+            <L [2]
+              <U4 10>
+              <L [2]
+                <A [12] 'ReticleB'>
+                <A >
+              >
+            >
+          >
+        >.
+
+02/06/2021 13:53:36 (App 10757) SdrRequest(ID = 0, S6F11 W=1, Data length = 42)
+  Return = 0 (S_GOOD), Returned Ticket = 1920
+  Data =
+        <L [3]
+          <U4 308>
+          <U4 2016>
+          <L
+            <L [2]
+              <U4 10>
+              <L [2]
+                <A [12] 'ReticleB'>
+                <A >
+              >
+            >
+          >
+        >.
+
+02/06/2021 13:53:37 (App 10757) SdrIdPoll(ID = 0), Return = 1 (S_POLL)
+  S6F12 W=0, Data length = 3, Returned Ticket = 1664
+
+02/06/2021 13:53:37 (App 10757) SdrMessageGet(Ticket = 1664, Data length = 3)
+  Return = 0 (S_GOOD)
+  Data =
+        <B 00>.
+
+02/06/2021 13:53:37 (App 10757) SdrTicketDrop(Ticket = 1664), Return = 0 (S_GOOD)
+
+02/06/2021 13:53:37 (App 10757) SdrIdPoll(ID = 0), Return = 1 (S_POLL)
+  S6F12 W=0, Data length = 3, Returned Ticket = 1920
+
+02/06/2021 13:53:37 (App 10757) SdrMessageGet(Ticket = 1920, Data length = 3)
+  Return = 0 (S_GOOD)
+  Data =
+        <B 00>.
+
+02/06/2021 13:53:37 (App 10757) SdrTicketDrop(Ticket = 1920), Return = 0 (S_GOOD)
+
+02/06/2021 13:53:37 (App 10757) SdrIdPoll(ID = 0), Return = 0 (F_POLL)
+
+02/06/2021 13:53:00 (App 10757) SdrRequest(ID = 0, S6F11 W=1, Data length = 51)
+  Return = 0 (S_GOOD), Returned Ticket = 1920
+  Data =
+        <L [3]
+          <U4 309>
+          <U4 1235>
+          <L
+            <L [2]
+              <U4 10>
+              <L [2]
+                <A [12] 'ReticleB'>
+                <A [9] 'Station1'>
+              >
+            >
+          >
+        >.
+
+02/06/2021 13:53:00 (App 10757) SdrRequest(ID = 0, S6F11 W=1, Data length = 57)
+  Return = 0 (S_GOOD), Returned Ticket = 1664
+  Data =
+        <L [3]
+          <U4 310>
+          <U4 1234>
+          <L
+            <L [2]
+              <U4 10>
+              <L [2]
+                <A [12] 'ReticleB'>
+                <A [15] 'R2'>
+              >
+            >
+          >
+        >.
+
+02/06/2021 13:54:00 (App 10757) SdrIdPoll(ID = 0), Return = 1 (S_POLL)
+  S6F12 W=0, Data length = 3, Returned Ticket = 1920
+
+02/06/2021 13:54:00 (App 10757) SdrMessageGet(Ticket = 1920, Data length = 3)
+  Return = 0 (S_GOOD)
+  Data =
+        <B 00>.
+
+02/06/2021 13:54:00 (App 10757) SdrTicketDrop(Ticket = 1920), Return = 0 (S_GOOD)
+
+02/06/2021 13:54:00 (App 10757) SdrIdPoll(ID = 0), Return = 0 (F_POLL)
+
+02/06/2021 13:54:01 (App 10757) SdrIdPoll(ID = 0), Return = 1 (S_POLL)
+  S6F12 W=0, Data length = 3, Returned Ticket = 1664
+
+02/06/2021 13:54:01 (App 10757) SdrMessageGet(Ticket = 1664, Data length = 3)
+  Return = 0 (S_GOOD)
+  Data =
+        <B 00>.
+
+02/06/2021 13:54:01 (App 10757) SdrTicketDrop(Ticket = 1664), Return = 0 (S_GOOD)
+
+02/06/2021 13:54:01 (App 10757) SdrIdPoll(ID = 0), Return = 0 (F_POLL)
+
+02/06/2021 13:54:23 (App 10757) SdrRequest(ID = 0, S6F11 W=1, Data length = 42)
+  Return = 0 (S_GOOD), Returned Ticket = 1664
+  Data =
+        <L [3]
+          <U4 311>
+          <U4 2283>
+          <L
+            <L [2]
+              <U4 5>
+              <L [3]
+                <A [5] 'Entry1'>
+                <L
+                  <U1 1>
+                >
+                <L
+                  <A >
+                >
+              >
+            >
+          >
+        >.
+
+02/06/2021 13:54:24 (App 10757) SdrIdPoll(ID = 0), Return = 1 (S_POLL)
+  S6F12 W=0, Data length = 3, Returned Ticket = 1664
+
+02/06/2021 13:54:24 (App 10757) SdrMessageGet(Ticket = 1664, Data length = 3)
+  Return = 0 (S_GOOD)
+  Data =
+        <B 00>.
+
+02/06/2021 13:54:24 (App 10757) SdrTicketDrop(Ticket = 1664), Return = 0 (S_GOOD)
+
+02/06/2021 13:54:24 (App 10757) SdrIdPoll(ID = 0), Return = 0 (F_POLL)
+
+02/06/2021 13:54:28 (App 10757) SdrRequest(ID = 0, S6F11 W=1, Data length = 54)
+  Return = 0 (S_GOOD), Returned Ticket = 1664
+  Data =
+        <L [3]
+          <U4 312>
+          <U4 2308>
+          <L [2]
+            <L [2]
+              <U4 1>
+              <L [2]
+                <A [5] 'Entry1'>
+                <U4 101>
+              >
+            >
+            <L [2]
+              <U4 2>
+              <L [2]
+                <U1 2>
+                <U1>
+              >
+            >
+          >
+        >.
+
+02/06/2021 13:54:28 (App 10757) SdrRequest(ID = 0, S6F11 W=1, Data length = 58)
+  Return = 0 (S_GOOD), Returned Ticket = 1920
+  Data =
+        <L [3]
+          <U4 313>
+          <U4 2276>
+          <L [2]
+            <L [2]
+              <U4 5>
+              <L [3]
+                <A [5] 'Entry1'>
+                <L
+                  <U1 1>
+                >
+                <L
+                  <A >
+                >
+              >
+            >
+            <L [2]
+              <U4 6>
+              <L
+                <U4 101>
+              >
+            >
+          >
+        >.
+
+02/06/2021 13:54:29 (App 10757) SdrIdPoll(ID = 0), Return = 1 (S_POLL)
+  S6F12 W=0, Data length = 3, Returned Ticket = 1664
+
+02/06/2021 13:54:29 (App 10757) SdrMessageGet(Ticket = 1664, Data length = 3)
+  Return = 0 (S_GOOD)
+  Data =
+        <B 00>.
+
+02/06/2021 13:54:29 (App 10757) SdrTicketDrop(Ticket = 1664), Return = 0 (S_GOOD)
+
+02/06/2021 13:54:29 (App 10757) SdrIdPoll(ID = 0), Return = 1 (S_POLL)
+  S6F12 W=0, Data length = 3, Returned Ticket = 1920
+
+02/06/2021 13:54:29 (App 10757) SdrMessageGet(Ticket = 1920, Data length = 3)
+  Return = 0 (S_GOOD)
+  Data =
+        <B 00>.
+
+02/06/2021 13:54:29 (App 10757) SdrTicketDrop(Ticket = 1920), Return = 0 (S_GOOD)
+
+02/06/2021 13:54:29 (App 10757) SdrIdPoll(ID = 0), Return = 0 (F_POLL)
+
+02/06/2021 13:53:10 (App 10757) SdrRequest(ID = 0, S6F11 W=1, Data length = 57)
+  Return = 0 (S_GOOD), Returned Ticket = 1920
+  Data =
+        <L [3]
+          <U4 314>
+          <U4 1235>
+          <L
+            <L [2]
+              <U4 10>
+              <L [2]
+                <A [12] 'ReticleB'>
+                <A [15] 'R2'>
+              >
+            >
+          >
+        >.

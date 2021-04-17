@@ -1,0 +1,2 @@
+Apr 08, 2021 11:48:12 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-08-2021 11:48:12 ReticleB started to move from L22

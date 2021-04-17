@@ -1,0 +1,10 @@
+Apr 09, 2021 3:28:02 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:28:02 ReticleA started to move from L21
+Apr 09, 2021 3:28:04 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: User rewound reticle ReticleA
+Apr 09, 2021 3:28:38 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:28:38 ReticleA moved to R2
+Apr 09, 2021 3:28:38 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: 04-09-2021 03:28:38 ReticleA started to move from R2
+Apr 09, 2021 3:28:46 PM com.simulation.reticlehandlersimulation.util.OutputLogWriter writeToLog
+INFO: User rewound reticle ReticleA

@@ -7,10 +7,6 @@ import java.awt.Graphics;
 import java.util.List;
 import javax.swing.JPanel;
 
-/**
- *
- * @author hemantm
- */
 public class ReticlePointersPanel extends JPanel{
     
     private final int PANEL_HEIGHT = 100;
@@ -20,10 +16,10 @@ public class ReticlePointersPanel extends JPanel{
 
     public ReticlePointersPanel(List<ReticlePointer> reticlePointers) {
         this.reticlePointers = reticlePointers;
-        initializePanels();
+        initializePanel();
     }
     
-    private void initializePanels(){
+    private void initializePanel(){
         setBackground(Color.WHITE);
         setPreferredSize(new Dimension(PANEL_WIDTH, PANEL_HEIGHT));
     }
@@ -38,7 +34,7 @@ public class ReticlePointersPanel extends JPanel{
         int y=10;
         for(ReticlePointer reticlePointer: reticlePointers){
             g.setColor(reticlePointer.getReticleColor());
-            g.fillOval(10, y, 10, 10);
+            g.fillRect(10, y, 10, 10);
             g.drawString(reticlePointer.getReticleName(), 30, y+10);
             y = y + 20;
         }

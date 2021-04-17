@@ -6,10 +6,20 @@ public class Motion {
     
     private String location;
     private Date startTime;
+    private String motionCode;
 
-    public Motion(String location, Date startTime) {
+    public Motion(String location, Date startTime, String motionCode) {
         this.location = location;
         this.startTime = startTime;
+        this.motionCode = motionCode;
+    }
+
+    public String getMotionCode() {
+        return motionCode;
+    }
+
+    public void setMotionCode(String motionCode) {
+        this.motionCode = motionCode;
     }
     
     public String getLocation() {

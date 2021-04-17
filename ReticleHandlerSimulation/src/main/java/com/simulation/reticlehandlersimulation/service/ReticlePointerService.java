@@ -35,9 +35,7 @@ public class ReticlePointerService {
         List<Path> paths = reticle.getPaths();
         double startX = getPoint(paths.get(0).getFromStation()).getX();
         double startY = getPoint(paths.get(0).getFromStation()).getY();
-        double stopX = getPoint(paths.get(paths.size()-1).getToStation()).getX();
-        double stopY = getPoint(paths.get(paths.size()-1).getToStation()).getY();
-        ReticlePointer reticlePointer = new ReticlePointer(reticle.getName(), randomColorGenerator.getRandomColor(), startX, startY, stopX, stopY);
+        ReticlePointer reticlePointer = new ReticlePointer(reticle.getName(), randomColorGenerator.getRandomColor(), startX, startY);
         for(Path path: paths){
             reticlePointer.getTransitions().add(getTransition(path));
         }

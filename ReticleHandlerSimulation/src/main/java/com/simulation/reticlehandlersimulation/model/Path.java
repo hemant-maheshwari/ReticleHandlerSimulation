@@ -5,11 +5,21 @@ public class Path {
     private String toStation;
     private String fromStation;
     private long travelTime;
+    private boolean error;
 
     public Path(String fromStation, String toStation, long travelTime) {
         this.toStation = toStation;
         this.fromStation = fromStation;
         this.travelTime = travelTime;
+        this.error = false;
+    }
+
+    public boolean isError() {
+        return error;
+    }
+
+    public void setError(boolean error) {
+        this.error = error;
     }
     
     public String getToStation() {
